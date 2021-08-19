@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.cobranzas.menus.menus">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar_id"
+            layout="@layout/toolbar_bancard"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        android:layout_below="@+id/appBar"
+        android:id="@+id/includeSubHeader"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/subheader"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/includeSubHeader"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/dp_10">
+
+            <LinearLayout
+                android:id="@+id/relative01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical|start"
+                    android:id="@+id/ly01"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:layout_alignParentStart="true"
+                    android:orientation="horizontal"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:id="@+id/tvTitulo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="ADMINISTRATIVAS"
+                    android:textColor="@color/colorAzul174B" />
+
+                <LinearLayout
+                    android:gravity="center_vertical|end"
+                    android:layout_weight="1"
+                    android:id="@+id/ly02"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentEnd="true"
+                    android:orientation="horizontal"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_below="@+id/relative01"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorAzul174B" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvMenus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/view1"
+                android:layout_marginTop="5dp" />
+            <RelativeLayout
+                android:id="@+id/rl02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:visibility="gone"
+                android:layout_below="@id/view1">
+
+
+                <ProgressBar
+                    android:id="@+id/handling_loading"
+                    style="@style/Widget.AppCompat.ProgressBar"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:indeterminateDrawable="@drawable/item_handling"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_centerInParent="true"
+                    android:visibility="visible"
+                    android:indeterminateDuration="@android:integer/config_longAnimTime"
+                    android:layout_weight="1"
+                    android:indeterminate="true" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

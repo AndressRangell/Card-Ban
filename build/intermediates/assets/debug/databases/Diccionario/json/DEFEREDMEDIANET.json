@@ -1,0 +1,66 @@
+[
+    {
+        "description": "NORMAL",
+        "id": "01",
+        "idw": "1",
+        "ind_interest": "1",
+        "on_d": "A",
+        "tag": "CF"
+    },
+    {
+        "description": "MESES DE GRACIA",
+        "id": "02",
+        "idw": "2",
+        "ind_interest": "1",
+        "on_d": "A",
+        "tag": "CF"
+    },
+    {
+        "description": "PAGO MES A MES",
+        "id": "03",
+        "idw": "3",
+        "ind_interest": "1",
+        "on_d": "A",
+        "tag": "PI"
+    },
+    {
+        "description": "NORMAL",
+        "id": "04",
+        "idw": "4",
+        "ind_interest": "0",
+        "on_d": "A",
+        "tag": "PR"
+    },
+    {
+        "description": "MESES DE GRACIA",
+        "id": "05",
+        "idw": "5",
+        "ind_interest": "0",
+        "on_d": "A",
+        "tag": "PR"
+    },
+    {
+        "description": "PAGO MES A MES",
+        "id": "06",
+        "idw": "6",
+        "ind_interest": "0",
+        "on_d": "A",
+        "tag": "PS"
+    },
+    {
+        "description": "ESPECIAL",
+        "id": "07",
+        "idw": "7",
+        "ind_interest": "0",
+        "on_d": "A",
+        "tag": "S1"
+    },
+    {
+        "description": "ESPECIAL",
+        "id": "08",
+        "idw": "8",
+        "ind_interest": "1",
+        "on_d": "A",
+        "tag": "S1"
+    }
+]

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dp_10"
+        >
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADMINISTRATIVAS"
+            android:textColor="@color/colorAzul174B"
+            android:layout_centerHorizontal="true"
+            />
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorAzul174B"
+            android:layout_below="@+id/tvTitulo"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvAdaptador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarThumbVertical="@drawable/top_barra_scrollview"
+            android:layout_below="@id/view1"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

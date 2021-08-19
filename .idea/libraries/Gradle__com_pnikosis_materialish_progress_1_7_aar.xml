@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pnikosis:materialish-progress:1.7@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1b2630785379b064cf4b0ee470e22a6e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1b2630785379b064cf4b0ee470e22a6e/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1b2630785379b064cf4b0ee470e22a6e/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

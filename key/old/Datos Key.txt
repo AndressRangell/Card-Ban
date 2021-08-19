@@ -1,0 +1,3 @@
+Nombre de la llave: KeyWpossMedianet.jks
+Alias: KeyWpossMN
+Contraseña: Wposs1254MN

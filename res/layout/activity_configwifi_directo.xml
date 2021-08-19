@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar_id"
+            layout="@layout/toolbar_bancard"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        android:layout_below="@+id/appBar"
+        android:id="@+id/includeSubHeader"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/subheader"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/includeSubHeader"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Redes Wifi"
+        android:textColor="@color/colorAzul174B" />
+
+    <View
+        android:layout_marginStart="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@+id/tvTitulo"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAzul174B" />
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/cardview"
+        app:cardCornerRadius="5dp"
+        android:layout_marginStart="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:layout_below="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvMensaje01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="start"
+                android:text="Nombre de la red"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/CajaNombreRed"
+                android:layout_below="@+id/tvMensaje01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/editTextNombreRed"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/border_number"
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingVertical="5dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/darker_gray"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_below="@+id/CajaNombreRed"
+                android:id="@+id/tvMensaje02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="start"
+                android:text="Contraseña de la red"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/CajaClaveRed"
+                android:layout_below="@+id/tvMensaje02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    app:passwordToggleEnabled = "true"
+                    app:passwordToggleTint="@color/colorPrimary"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/editTextClave"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/border_number"
+                        android:gravity="center"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:paddingVertical="5dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/dp_10"
+                android:layout_below="@+id/CajaClaveRed"
+                android:id="@+id/btnGuardar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/bordebuttonip"
+                android:textSize="@dimen/sp_16"
+                android:textColor="@color/white"
+                android:text="Conectar a Red" />
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+</RelativeLayout>

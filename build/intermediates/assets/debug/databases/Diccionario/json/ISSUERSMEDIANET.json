@@ -1,0 +1,98 @@
+[
+    {
+        "nombre": "VISA/ELECTRON",
+        "numero": "01"
+    },
+    {
+        "nombre": "MASTERCARD/MAES",
+        "numero": "02"
+    },
+    {
+        "nombre": "BOLIVARIANO",
+        "numero": "03"
+    },
+    {
+        "nombre": "BANINTER",
+        "numero": "04"
+    },
+    {
+        "nombre": "PRODUBANCO",
+        "numero": "05"
+    },
+    {
+        "nombre": "SUPERMAXI",
+        "numero": "06"
+    },
+    {
+        "nombre": "PROMERICA",
+        "numero": "07"
+    },
+    {
+        "nombre": "VISA ELECT/DEB",
+        "numero": "08"
+    },
+    {
+        "nombre": "C.C.Q.",
+        "numero": "09"
+    },
+    {
+        "nombre": "B. NUEVO",
+        "numero": "10"
+    },
+    {
+        "nombre": "B. AMAZONAS",
+        "numero": "11"
+    },
+    {
+        "nombre": "CUOTA FACIL",
+        "numero": "12"
+    },
+    {
+        "nombre": "COOPROGRESO",
+        "numero": "13"
+    },
+    {
+        "nombre": "29 DE OCTUBRE",
+        "numero": "14"
+    },
+    {
+        "nombre": "PRIMAX",
+        "numero": "15"
+    },
+    {
+        "nombre": "MARCA CERRADA 1",
+        "numero": "16"
+    },
+    {
+        "nombre": "MARCA CERRADA 2",
+        "numero": "17"
+    },
+    {
+        "nombre": "MARCA CERRADA 3",
+        "numero": "18"
+    },
+    {
+        "nombre": "MOVIX",
+        "numero": "19"
+    },
+    {
+        "nombre": "ALIA",
+        "numero": "20"
+    },
+    {
+        "nombre": "DINERS",
+        "numero": "21"
+    },
+    {
+        "nombre": "UNIONPAY",
+        "numero": "22"
+    },
+    {
+        "nombre": "AMEX",
+        "numero": "23"
+    },
+    {
+        "nombre": "DISCOVER",
+        "numero": "24"
+    }
+]

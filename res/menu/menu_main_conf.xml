@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/icon_setting_communication"
+        android:id="@+id/action_settings1"
+        android:background="@color/colorPrimary"
+        app:showAsAction="ifRoom|withText"
+        android:title="Configuracion Inicial">
+
+        <menu>
+
+            <item
+                android:id="@+id/action_confIni"
+                android:title="Configuracion Inicial">
+                <menu>
+                    <item
+                        android:id="@+id/action_paramIni"
+                        android:title="Parametros Iniciales"/>
+
+                    <item
+                        android:id="@+id/action_init1"
+                        android:title="Inicializar">
+
+                    </item>
+
+                </menu>
+            </item>
+
+            <item
+                android:id="@+id/action_funTerm"
+                android:title="Funciones Terminal">
+                <menu>
+                    <item
+                        android:id="@+id/action_init2"
+                        android:title="Inicializar">
+
+                    </item>
+
+                    <item
+                        android:id="@+id/action_inye_llaves"
+                        android:title="Inyectar Llaves"/>
+
+                </menu>
+            </item>
+        </menu>
+
+    </item>
+
+
+</menu>

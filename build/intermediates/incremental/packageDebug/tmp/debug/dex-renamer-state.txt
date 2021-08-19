@@ -1,0 +1,7 @@
+#Thu Aug 19 12:07:47 COT 2021
+base.1=C\:\\Users\\WPOSS BGA 634K\\Downloads\\OneDrive_1_19-8-2021\\9220_bancard_cobranzas\\9220_bancard_cobranzas\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.1=classes.dex
+base.0=C\:\\Users\\WPOSS BGA 634K\\Downloads\\OneDrive_1_19-8-2021\\9220_bancard_cobranzas\\9220_bancard_cobranzas\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

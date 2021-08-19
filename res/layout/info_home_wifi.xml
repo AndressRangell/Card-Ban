@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#86222222">
+
+    <LinearLayout
+        android:id="@+id/setting_pass_layout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:background="@android:color/transparent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_gravity="bottom"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/setting_pass_close"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:tint="@color/colorAzul174B"
+                    android:src="@drawable/ic_close_white" />
+
+
+                <TextView
+                    android:id="@+id/editTextNombreRed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="Nombre red wifi"
+                    >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textViewSeguridad2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Direccion IP:"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/editTextNombreRed"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewIPWifi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="WPS"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/textViewSeguridad2"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewEstado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Estado:"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/textViewIPWifi"
+                    />
+                <TextView
+                    android:id="@+id/textViewValEstado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Conectado"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/textViewEstado"
+                    />
+                <TextView
+                    android:id="@+id/textViewPotencia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Potencia de la señal:"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/textViewValEstado"
+                    />
+                <TextView
+                    android:id="@+id/textViewValPotencia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buena"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/textViewPotencia"
+                    />
+                <TextView
+                    android:id="@+id/textViewSeguridad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Seguridad:"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/textViewValPotencia"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewValSeguridad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="WPS"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/textViewSeguridad"
+                    />
+
+                <Button
+                    android:id="@+id/btnOlvidar"
+                    android:layout_margin="8dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/bordebuttonip"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    android:textColor="@color/white"
+                    android:text="Olvidar" />
+
+                <Button
+                    android:id="@+id/btnListo"
+                    android:layout_margin="8dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/bordebuttonip"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    android:textColor="@color/white"
+                    android:text="Listo" />
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/setting_circle_bg" >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="46dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_passw_icon" />
+
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

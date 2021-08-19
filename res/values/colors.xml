@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#0E3E8A</color><!--C2A614 -->
+    <color name="colorPrimary50">#800E3E8A</color><!--C2A614 -->
+    <color name="colorPrimary80">#CC0E3E8A</color><!--C2A614 -->
+    <color name="colorPrimaryDark">#092B60</color>
+    <color name="colorAccent">#3E64A1</color>
+    <color name="colorDark">#dfe0b3</color>
+    <color name="colorbuttonnumber">#164F96</color>
+    <color name="colorAzul174B">#174B94</color>
+    <color name="bgHeader">#BBDEEB</color>
+
+    <color name="white">#FFFFFF</color><!--白色 -->
+    <color name="red">#E64C3C</color><!--红色 -->
+    <color name="red80">#CCE64C3C</color><!--红色 -->
+    <color name="gray">#767c9b</color><!--灰色 -->
+    <color name="darker_gray">#aaaaaa</color><!--深灰色 -->
+    <color name="black">#000000</color><!--黑色 -->
+    <color name="yellow">#ffff00</color><!--黄色 -->
+    <color name="yellowDark">#FFCC00</color>
+    <color name="aquamarine">#7fffd4</color><!--碧绿色 -->
+    <color name="light_orange">#fcb75c</color><!--亮橙色 -->
+    <color name="turquoise">#40e0d0</color><!--青绿色 -->
+    <color name="accent">#61B3DD</color>
+    <color name="base_blue">#557BCD</color>
+    <color name="color_light_blue">#4FBA6F</color>
+    <color name="txt_color">#48495F</color>
+    <color name="item_bg">#FFFFFF</color>
+    <color name="bg">#F0F0F0</color>
+    <color name="spinner_bg">#333244</color>
+    <color name="new_text_color">#555771</color>
+    <color name="white_text_color">#F0F0F0</color>
+    <color name="gray_color">#4b4b58</color>
+    <color name="hard_color">#48495f</color>
+    <color name="clickspan_color">#4FBA6F</color>
+    <color name="dull_blue">#3B4BBF</color>
+    <color name="Background_Editext">#64CCCCCC</color>
+    <color name="gray_enable">#959599</color>
+
+    <color name="color_green">#179503</color>
+    <color name="celeste">#E3EBF6</color>
+    <color name="grey_90">#263238</color>
+    <color name="grey_60">#666666</color>
+
+</resources>

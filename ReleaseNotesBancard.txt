@@ -1,0 +1,360 @@
+==============================================================================================================
+Version V.0.4.0      					 3 / Abril / 2020
+--------------------------------------------------------------------------------------------------------------
+- Se realizaron Modificaciones de Diseño en el menu de Configuraciones
+- Se realizaron Modificaciones en los Timer de las Transacciones
+- Se realizaron Ajuste para tarjeta Multicuenta
+- Modificacion de Impresion
+- Se Realizo Ajuste de Cierre
+- Correciones de Ortografia en la Incializacion
+- Se Realizo Ajuste de Validacion de Papel
+- Se Realizo Ajuste en la Mensajeria del Echotest
+- Se retira validacion de vuelto maximo
+
+
+//            ARCHIVOS MODIFICADOS        //
+
+- \AndroidManifest.xml
+- \assets\default\default_config.properties
+- \assets\status\success_en.properties
+- \ReleaseNotesBancard.txt
+- \res\layout\activity_main.xml
+- \res\layout\activity_menus.xml
+- \res\layout\activity_remove_card.xml
+- \res\values\strings.xml
+- \res\values-en\strings.xml
+- \src\cn\desert\newpos\payui\master\MasterControl.java
+- \src\cn\desert\newpos\payui\transrecord\HistoryTrans.java
+- \src\com\bancard\actividades\MainActivity.java
+- \src\com\bancard\actividades\ReportesActivity.java
+- \src\com\bancard\actividades\StartAppBANCARD.java
+- \src\com\bancard\definesBANCARD\DefinesBANCARD.java
+- \src\com\bancard\inicializacion\trans_init\Init.java
+- \src\com\bancard\inicializacion\trans_init\trans\SendRcvd.java
+- \src\com\bancard\inicializacion\trans_init\trans\UnpackFile.java
+- \src\com\bancard\menus\MenusActivity.java
+- \src\com\bancard\printer\PrintParameter.java
+- \src\com\bancard\transactions\common\CommonFunctionalities.java
+- \src\com\bancard\transactions\DataAdicional\DataAdicional.java
+- \src\com\bancard\transactions\Settle\Settle.java
+- \src\com\bancard\transactions\venta\Venta.java
+- \src\com\newpos\libpay\device\contactless\CallBackHandle.java
+- \src\com\newpos\libpay\device\printer\PrintManager.java
+- \src\com\newpos\libpay\global\TMConfig.java
+- \src\com\newpos\libpay\PaySdk.java
+- \src\com\newpos\libpay\presenter\TransUI.java
+- \src\com\newpos\libpay\presenter\TransUIImpl.java
+- \src\com\newpos\libpay\presenter\TransView.java
+- \src\com\newpos\libpay\trans\finace\FinanceTrans.java
+- \src\com\newpos\libpay\utils\PAYUtils.java
+
+//       ARCHIVOS AGREGADOS            //
+
+- \res\drawable\nfc_acerca.xml
+- \res\drawable\nfc_retira.xml
+- \res\drawable\tab_button.xml
+- \res\drawable\top_barra_scrollview.xml
+- \res\layout\activity_reportes_cierres.xml
+- \res\layout\itemtiquete.xml
+- \res\layout\item_reporte_cierre.xml
+- \res\layout\vista_remove_ctl.xml
+- \res\layout\vista_result_settle.xml
+- \src\com\bancard\adaptadores\AdaptadorSetting.java
+- \src\com\bancard\logsCierres\CierresLogsAdapter.java
+- \src\com\bancard\logsCierres\FragmentReporteCierre.java
+- \src\com\bancard\logsCierres\LogsCierresModelo.java
+- \src\com\bancard\logsCierres\ReportesCierresActivity.java
+- \src\com\bancard\logsCierres\SqlLogsCierres.java
+- \src\com\bancard\model\ModelSetting.java
+
+
+==============================================================================================================
+Version V.0.3.0      					 9 / Marzo / 2020
+--------------------------------------------------------------------------------------------------------------
+
+- Ajuste en reverso, en version anterior se afectó envío de número de celular. (Zimple y Saldo)
+- Ajuste cambio de ubicacion en la creacion del objeto de la clase DataAdicional
+
+Archivos modificado:
+
+- \build.gradle
+- \src\com\newpos\libpay\trans\finace\FinanceTrans.java
+- \src\com\bancard\transactions\echotest\EchoTest.java
+- \src\com\bancard\transactions\DataAdicional\DataAdicional.java
+- \src\com\newpos\libpay\trans\Trans.java
+- \src\com\bancard\transactions\echotest\EchoTest.java
+
+
+==============================================================================================================
+Version V.0.2.9      					5 / Marzo / 2020
+--------------------------------------------------------------------------------------------------------------
+
+- Ajuste en reverso, en version anterior se afectó envío de número de celular. (Zimple y Saldo)
+
+Archivos modificado:
+- \build.gradle
+- \src\com\newpos\libpay\trans\finace\FinanceTrans.java
+
+==============================================================================================================
+Version V.0.2.8      					2 / Marzo / 2020
+--------------------------------------------------------------------------------------------------------------
+
+- Reubicacion Test de Comunicacion al menu administrativo.
+- Optimizacion/control de memoria
+- Ajuste de timmers, Se estaban validando timmers sin informacion.
+- Implementacion eliminacion de reverso localmente cuando hay fallos en reverso y si existe comunicacion, comprobada por Test de comunicacion Echo.
+- Ajuste, Al no evacuar el reverso y realizar consulta de saldo se eliminaba el reverso indebidamente.
+- 
+
+Archivos modificado:
+- \AndroidManifest.xml
+- \assets\status\success_en.properties
+- \build.gradle
+- \src\com\bancard\actividades\ConfiguracionTecnicoActivity.java
+- \src\com\bancard\menus\MenusActivity.java
+- \src\com\bancard\transactions\echotest\EchoTest.java
+- \src\com\newpos\libpay\presenter\TransUIImpl.java
+- \src\com\newpos\libpay\trans\finace\FinanceTrans.java
+- \src\com\newpos\libpay\trans\manager\RevesalTrans.java
+- \src\com\newpos\libpay\trans\Tcode.java
+
+==============================================================================================================
+Version V.0.2.7      					24 / Febrero / 2020
+--------------------------------------------------------------------------------------------------------------
+
+- Validación de cantidad de dígitos ingresados en numero telefónico
+- Mejora en descripción de mensajes de error.
+- Control en proceso de transaccion, cierre y reverso antes de realizar una actualización desde Polaris Agente.
+- Implementación  reverso inmediatamente al no recibir respuesta del servidor.
+- Ajuste en impresión linea de firma
+- Cambio en mensajes de Echo Test, mas descriptivos
+- Ajustes al intentar enviar una transaccion sin tener comunicación con el servidor.
+- Solicitud de PIN para transacciones consulta de saldo
+
+Archivos modificado:
+* \res\layout\activity_venta_cuotas.xml
+* \res\layout\activity_venta_cuotas_list_plan.xml
+* \src\cn\desert\newpos\payui\master\MasterControl.java
+* \src\cn\desert\newpos\payui\transrecord\HistoryTrans.java
+* \src\com\bancard\actividades\MainActivity.java
+* \src\com\bancard\actividades\StartAppBANCARD.java
+* \src\com\bancard\definesBANCARD\DefinesBANCARD.java
+* \src\com\bancard\printer\PrintParameter.java
+* \src\com\bancard\transactions\echotest\EchoTest.java
+* \src\com\bancard\transactions\Settle\Settle.java
+
+==============================================================================================================
+Version V.0.2.6      					17/ Febrero / 2020
+--------------------------------------------------------------------------------------------------------------
+
+* Ajuste envio de tag EMV 9F03 (OtherAmount) cuando no se procesa.
+* Validacion en inicializacion, campo Hora EchoTest que no eliminaba caracteres distintos a digitos.
+* Ajuste en reportes y cierres, causados por logs de la transaccion consulta de saldo.
+
+
+Archivos modificado:
+* \9220_bancard\src\com\newpos\libpay\process\EmvTransaction.java
+* C:\AndroidProjects\Wposs\9220_bancard\src\com\newpos\libpay\trans\finace\FinanceTrans.java
+* C:\AndroidProjects\Wposs\9220_bancard\src\com\newpos\libpay\utils\PAYUtils.java
+* C:\AndroidProjects\Wposs\9220_bancard\src\com\bancard\transactions\common\CommonFunctionalities.java
+* C:\AndroidProjects\Wposs\9220_bancard\src\com\bancard\transactions\consulta\ConsultaDeSaldo.java
+* C:\AndroidProjects\Wposs\9220_bancard\src\cn\desert\newpos\payui\transrecord\HistorylogAdapter.java
+* C:\AndroidProjects\Wposs\9220_bancard\src\cn\desert\newpos\payui\transrecord\HistoryTrans.java
+* C:\AndroidProjects\Wposs\9220_bancard\src\com\bancard\transactions\Settle\Settle.java
+* C:\AndroidProjects\Wposs\9220_bancard\src\com\newpos\libpay\device\printer\PrintManager.java
+
+==============================================================================================================
+Version V.0.2.5      					10/ Febrero / 2020
+--------------------------------------------------------------------------------------------------------------
+
+* Optimizacion de Memoria
+
+
+==============================================================================================================
+Version V.0.2.4      					04/ Febrero / 2020
+--------------------------------------------------------------------------------------------------------------
+
+* Ajuste en la conexión wifi para mostrar o ocultar contraseña
+* Ajustes de los tag para las tarjetas Gourmet Card.
+
+==============================================================================================================
+Version V.0.2.3      					04/ Febrero / 2020
+--------------------------------------------------------------------------------------------------------------
+
+* Ajuste de los tag para Gourmet Card.
+
+==============================================================================================================
+Version V.0.2.2      					04/ Febrero / 2020
+--------------------------------------------------------------------------------------------------------------
+
+*  Aumento de 15 a 25 caracteres en el editext del cuadro de texto para escribir la clave.
+*  NII tomado desde polaris FinanceTrans
+
+
+// ARCHIVOS MODIFICADOS //
+
+- res\layout\setting_home_pass.xml
+- src\com\newpos\libpay\trans\finace\FinanceTrans.java
+
+==============================================================================================================
+Version V.0.2.1      					31/ Enero / 2020
+--------------------------------------------------------------------------------------------------------------
+
+*  Eliminacion de librerias que no se usan.
+*  IMPRIMIR Zimple en total movil.
+*  Configura el monto minimo para pedir pin
+*  no se configura la tabla COMERCIOS si el Lote no esta vacio
+*  MODIFICACION DE LOS ARCHIVOS DE CTL
+*  ProcesarEMV Para la WizardQ2
+*  Suma de cantidad de transacciones y montos de las transacciones correspondientes a Movil.
+*  Validaciones para casos de error en lectura de tarjeta con contacLess 
+
+// ARCHIVOS MODIFICADOS //
+
+- \src\com\newpos\libpay\device\contactless\EmvL2Process.java
+- \src\com\newpos\libpay\device\printer\PrintManager.java
+- \src\com\newpos\libpay\trans\finace\FinanceTrans.java
+- \src\com\newpos\libpay\trans\Tcode.java
+
+
+==============================================================================================================
+Version V.P.2.0      					31/ Enero / 2020
+--------------------------------------------------------------------------------------------------------------
+
+*  Se ajuste impresion
+*  Ajuste de suites para pruebas TLS
+*  Se actualiza certificado para produccion
+*  Implementacion lectura de tarjetas
+*  Poner en el Manifest los permisos para Wizzard
+*  btnClose en vista de handling contactless
+*  SE AGREGA METODO EN TRANSUI que me retorna el valor del boton de opcion de leerTarjeta
+*  Ajuste ortográfico
+*  SUBIR ARCHIVOS DE CTL
+*  Se quitan dos ShowError que podrian ocacionar que se quede pegado un timer.
+*  Implementacion Pedir pin confi polaris
+*  quitar mensaje en consola
+*  VENTANA PARA SOLICITAR TARJETA
+
+// ARCHIVOS MODIFICADOS //
+
+- \res\layout\activity_confirm_amount.xml
+- \res\layout\trans_show_cardno.xml
+- \src\cn\desert\newpos\payui\master\MasterControl.java
+- \src\cn\desert\newpos\payui\transrecord\HistoryTrans.java
+- \src\com\bancard\actividades\StartAppBANCARD.java
+- \src\com\bancard\keys\InjectMasterKey.java
+- \src\com\bancard\menus\menus.java
+- \src\com\bancard\printer\PrintParameter.java
+- \src\com\bancard\transactions\common\CommonFunctionalities.java
+- \src\com\newpos\libpay\helper\ssl\NetworkHelper.java
+- \src\com\newpos\libpay\presenter\TransUIImpl.java
+- \src\com\newpos\libpay\presenter\TransView.java
+- \src\com\newpos\libpay\process\EmvTransaction.java
+- \src\com\newpos\libpay\trans\finace\FinanceTrans.java
+
+// ARHCIVOS AGREGADOS //
+
+- \build\intermediates\res\merged\debug\raw_ca.ks.flat
+- \FilesCTL9220\FilesCTL9220\ENTRY_POINT
+- \FilesCTL9220\FilesCTL9220\PROCESSING
+- \FilesCTL9220\FilesCTL9220\REVOK
+- \FilesCTL9220\FilesCTL9220\TERMINAL
+- \FilesCTL9220\FilesCTL9220.zip
+- \res\raw\ca.ks
+
+// ARCHIVOS ELIMINADOS //
+
+- \assets\back.png
+- \assets\gif\load1.gif
+- \assets\gif\load2.gif
+- \src\com\bancard\tools_card\GetCard.java
+- \src\com\bancard\tools_card\GetCardInfo.java
+
+
+==============================================================================================================
+Version V.0.1.9      					31/ Enero / 2020
+--------------------------------------------------------------------------------------------------------------
+*  Se eliminan metodos y clases que no se estan usando.
+*  Tikcet89 Se soluciona caso que cuando se realiza transaccion con CTL y se responde 60 para pedir PIn al imprimir se estalla la aplicacion. La solucion era por tema del EntryMode en el setLog que al enviar PIN no se estaba cambiando y no guardaba el AID de la tarjeta.
+*  Ticket95 Se soluciona caso que se muestra leyenda Rechazada Aprobada al retirar la tarjeta antes de recibir respuesta. Se acomoda la validacion de ICC y CTL antes de procesar los campos adicionales y de procesar los codigos de respuesta.
+*  Se eliminan metodos y clases que no se estan usando.
+
+
+// ARCHIVOS MODIFICADOS //
+
+- \res\layout\activity_confirm_amount.xml
+- \res\layout\trans_show_cardno.xml
+- \src\cn\desert\newpos\payui\master\MasterControl.java
+- \src\cn\desert\newpos\payui\transrecord\HistoryTrans.java
+- \src\com\bancard\actividades\StartAppBANCARD.java
+- \src\com\bancard\keys\InjectMasterKey.java
+- \src\com\bancard\menus\menus.java
+- \src\com\bancard\printer\PrintParameter.java
+- \src\com\bancard\transactions\common\CommonFunctionalities.java
+- \src\com\bancard\transactions\venta\Venta.java
+- \src\com\newpos\libpay\device\printer\PrintManager.java
+- \src\com\newpos\libpay\helper\ssl\NetworkHelper.java
+- \src\com\newpos\libpay\presenter\TransUIImpl.java
+- \src\com\newpos\libpay\presenter\TransView.java
+- \src\com\newpos\libpay\process\EmvTransaction.java
+- \src\com\newpos\libpay\trans\finace\FinanceTrans.java
+
+// ARHCIVOS AGREGADOS //
+
+- \FilesCTL9220\FilesCTL9220\ENTRY_POINT:
+- \FilesCTL9220\FilesCTL9220\PROCESSING:
+- \FilesCTL9220\FilesCTL9220\REVOK:
+- \FilesCTL9220\FilesCTL9220\TERMINAL:
+- \FilesCTL9220\FilesCTL9220.zip:
+- \res\raw\ca.ks:
+
+// ARCHIVO ELIMINADOS //
+
+- \assets\back.png
+- \assets\gif\load1.gif
+- \assets\gif\load2.gif
+- \src\com\bancard\tools_card\GetCard.java
+- \src\com\bancard\tools_card\GetCardInfo.java
+
+==============================================================================================================
+
+Versión 0.0.6 30/12/2019
+* Se ajusta mensaje de monto maximo para vuelto en la ventana donde se digita el monto. 
+* Se agrega en la mensajeria la letra 'V' antes del numero de versión para unificar diseño y mensajeria
+* Se ajusta la mensajeria del subCampo 81 donde se envian los seriales que presentaban modificacion despues de la solicitud de PIN rspCode 56
+* Se ajusta el track 2 enviando 48 caracteres en todos los casos. 
+* Validaciones en pantallas de reporte que hacian reiniciar la aplicación. 
+* Validacion en pantalla de ingreso de cuotas impidiendo seguir al ingresar '1' cuota. 
+* Se ajusta simbolo de moneda en ventana de cierre. 
+
+---------------------------------------------
+Versión 0.0.5 27/12/2019
+* Se formatea correctamente el monto que llega como monto maximo de vuelto.
+* Se ajusta la lectura de archivos de CTL, para que lea los que se descargan de Polaris. 
+* Se ajustan los timers de conexión y pantallas correspondiente a lo que llega de Polaris.
+* Se agrega el numero de version en la pantalla principal
+* Se ajusta tarjeta que muestra el plan de cuotas para que muestre dos lineas de texto en la descripcion del plan. 
+* Se ajusto la configuracion de red del menu de configuracion tecnico. Se muestran las IPs que se estan usando para conexion. 
+* Se ajsuta el ticket de reporte detallado, imprimiendo la hora y fecha actual, titulos de la informacion a mostrar. 
+* Se ajusta el reporte detallado en pantalla y reeimpresion para que no muestre el numero de tarjeta completo, solo mostrando los 4 primero y 4 ultimos numeros. 
+* Se ajusta la impresion del ticket de vuelto que no imprimia la inforamcion del vuelto. 
+* Se ajusta el mensaje de "TRANSACCION AUTENTICADA POR PIN", en copia de cliente
+* Se realizan correcciones ortograficas en la aplicación
+
+---------------------------------------------
+Versión 0.0.4 23/12/2019
+* Actualizacion de la hora del POS correspondiente a la informacion que llega en la respuesta ISO del host. 
+* Correcciones ortograficas reportadas
+* Cambio de vista que solicita ingresar tarjeta chip cuando se intenta por banda. 
+* Activar funcionalidad del boton de borrar en las vistas de ingreso de telefono. La X borrara todo el campo de texto.
+
+---------------------------------------------
+Versión 0.0.3 20/12/2019
+* Se crean opciones en Configuracion Tecnico para eliminar y cambiar las llaves. 
+* Se ajusta la impresion del cierre por tipo de transacciones y tipo de tarjetas. 
+* Se ajusta texto de "Pasá la tarjeta" por "Pasar la tarjeta"
+* Se ajusta error que imprimia la fecha de ultimo cierre como null.
+* Se ajusta ventana de transaccion aprobada que se mostraba despues de imprimir la copia al cliente. 
+* Correcciones al proceso de cambio de red de la base de datos.
+* Otras correcciones ortograficas en textos de la aplicacción.
+* Se envia numero de serie de la terminal en los subCampos respectivos, 70 y 81.

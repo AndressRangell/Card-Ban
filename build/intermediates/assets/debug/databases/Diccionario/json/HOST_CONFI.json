@@ -1,0 +1,20 @@
+[
+    {
+        "ID_HOST": "289                                               ",
+        "IP_TRAN1": "IP1",
+        "IP_TRAN2": "IP2",
+        "IP_TRAN3": "IP3",
+        "IP_TRAN4": "IP4",
+        "LLAVE_1": "",
+        "LLAVE_2": "                                                  ",
+        "LLAVE_DOBLE": "0                                                 ",
+        "NII_CIERRE": "001",
+        "NII_ECHO_TEST": "001",
+        "NII_TRANSACCIONES": "001",
+        "NOMBRE_HOST": "WPOSS",
+        "REINTENTOS": "1                                                 ",
+        "TIEMPO_ESPERA_CONEXION": "10                                                ",
+        "TIEMPO_ESPERA_RESPUESTA": "45",
+        "TIPO_COMUNICACION": "wifi                                              "
+    }
+]

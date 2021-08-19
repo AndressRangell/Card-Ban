@@ -1,0 +1,581 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:2:1-180:12
+INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:2:1-180:12
+INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:2:1-180:12
+INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:2:1-180:12
+MERGED from [com.github.zhou256bug:android-ninekeyboard-msater:v1.5] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\d66e10ed3921fed80680ad440e314d56\AndroidManifest.xml:2:1-27:12
+MERGED from [com.github.zhou256bug:android-baserecyle-master:v1.1] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\03e9ba247cbb3e87ff10f34f05a2c1df\AndroidManifest.xml:2:1-24:12
+MERGED from [com.github.zhou256bug:android-popuplist-master:v1.1] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\701c2cfcfd7fec2fa23f9e264384b9fe\AndroidManifest.xml:2:1-24:12
+MERGED from [com.github.zhou256bug:android-admanager-master:v1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\5f895b9d92fff19295edde8566d6f4a3\AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\9aafbb6724aedd43b2092584d104d9cd\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\f1127168a3e790c5b325dddfdd5fccc0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\c067aa26cdf47ad8f400d4032c4bad99\AndroidManifest.xml:17:1-28:12
+MERGED from [com.github.f0ris.sweetalert:library:1.6.2] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\4366d0ac5ec37f4e63794a6b5abf85dd\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\7394caa9093ce22b89f433e46936a292\AndroidManifest.xml:17:1-28:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:17:1-55:12
+MERGED from [:bypay-20201229_androidV7:] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\5cc451cde3dc687f8cc1fcc84da88c63\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.gcacace:signature-pad:1.2.1] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\0f1adfa7790343159fba4c405a262e57\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\d0f01243fed53b62f7741fa9f51da400\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\2aff8541d893137ff5876429b26dd2b9\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\ac10f16ad27d626ed01443242e75217a\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\78a9e1c2e1c7f0ffd15c5acd3d9895be\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.databinding:adapters:1.2.1] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\8de5ba0baf25e9e46b5f6b028b067c07\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.databinding:library:1.2.1] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\fe2265fe726a36f13ade8128ec471206\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\619482e31807b048c95733c4de386a6b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\ccab164b40dc2bd12a233217c36d7211\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\e5dcacd015b08bcb6900522bd8348851\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\4d8a0b685bc44d110ca007ccea7a2516\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\32bd6143bb43ab13c305e8ea624ddb2d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\9b57ef8c6971d2c14f65483f9991f65c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\1b2630785379b064cf4b0ee470e22a6e\AndroidManifest.xml:2:1-13:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\623c30aaef412c82641f74f25c9d6a47\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:2:1-180:12
+INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:2:1-180:12
+INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:2:1-180:12
+	package
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:4:5-34
+		INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml
+		INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml
+		INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml
+		INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml
+supports-screens
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:8:5-13:39
+	android:largeScreens
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:10:9-36
+	android:smallScreens
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:13:9-36
+	android:normalScreens
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:11:9-37
+	android:resizeable
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:12:9-34
+	android:anyDensity
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:9:9-34
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:14:5-73
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:14:22-70
+uses-permission#android.permission.READ_CALENDAR
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:15:5-72
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:15:22-69
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:16:5-77
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:16:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:17:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:18:5-82
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:18:22-79
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:19:5-94
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:19:22-91
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:20:22-63
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:21:5-75
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:21:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:23:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:24:5-76
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:24:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:25:5-76
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:25:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:26:5-75
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:26:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:27:5-80
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:27:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:28:5-81
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:28:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:29:5-78
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:29:22-75
+uses-permission#android.permission.SYSTEM_OVERLAY_WINDOW
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:30:5-80
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:30:22-77
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:31:5-33:47
+	tools:ignore
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:33:9-44
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:32:9-57
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:34:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:21:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:34:22-62
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:35:5-81
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:35:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:36:5-79
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:36:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:37:5-81
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:37:22-78
+uses-feature#android.hardware.camera
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:38:5-40:36
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:24:5-26:36
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:39:9-47
+uses-feature#android.hardware.camera.front
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:41:5-43:36
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:27:5-29:36
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:42:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:45:5-47:36
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:32:5-34:36
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:32:5-34:36
+	android:required
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:47:9-33
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:46:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:48:5-50:36
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:35:5-37:36
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:50:9-33
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:49:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:51:5-70
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:38:5-40:36
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:38:5-40:36
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:51:19-67
+uses-feature#android.hardware.wifi
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:52:5-54:36
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:41:5-43:36
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:54:9-33
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:53:9-45
+uses-feature#android.hardware.touchscreen
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:55:5-65
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:55:19-62
+application
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:57:5-178:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\9aafbb6724aedd43b2092584d104d9cd\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\9aafbb6724aedd43b2092584d104d9cd\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\f1127168a3e790c5b325dddfdd5fccc0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\f1127168a3e790c5b325dddfdd5fccc0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\c067aa26cdf47ad8f400d4032c4bad99\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\c067aa26cdf47ad8f400d4032c4bad99\AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.f0ris.sweetalert:library:1.6.2] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\4366d0ac5ec37f4e63794a6b5abf85dd\AndroidManifest.xml:11:5-20
+MERGED from [com.github.f0ris.sweetalert:library:1.6.2] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\4366d0ac5ec37f4e63794a6b5abf85dd\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\7394caa9093ce22b89f433e46936a292\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\7394caa9093ce22b89f433e46936a292\AndroidManifest.xml:22:5-26:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:45:5-53:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:45:5-53:19
+MERGED from [com.github.gcacace:signature-pad:1.2.1] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\0f1adfa7790343159fba4c405a262e57\AndroidManifest.xml:11:5-20
+MERGED from [com.github.gcacace:signature-pad:1.2.1] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\0f1adfa7790343159fba4c405a262e57\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\d0f01243fed53b62f7741fa9f51da400\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\d0f01243fed53b62f7741fa9f51da400\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\2aff8541d893137ff5876429b26dd2b9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\2aff8541d893137ff5876429b26dd2b9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\ac10f16ad27d626ed01443242e75217a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\ac10f16ad27d626ed01443242e75217a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\78a9e1c2e1c7f0ffd15c5acd3d9895be\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\78a9e1c2e1c7f0ffd15c5acd3d9895be\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\619482e31807b048c95733c4de386a6b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\619482e31807b048c95733c4de386a6b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\ccab164b40dc2bd12a233217c36d7211\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\ccab164b40dc2bd12a233217c36d7211\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\e5dcacd015b08bcb6900522bd8348851\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\e5dcacd015b08bcb6900522bd8348851\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\4d8a0b685bc44d110ca007ccea7a2516\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\4d8a0b685bc44d110ca007ccea7a2516\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\32bd6143bb43ab13c305e8ea624ddb2d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\32bd6143bb43ab13c305e8ea624ddb2d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\9b57ef8c6971d2c14f65483f9991f65c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\9b57ef8c6971d2c14f65483f9991f65c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\1b2630785379b064cf4b0ee470e22a6e\AndroidManifest.xml:11:5-20
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\1b2630785379b064cf4b0ee470e22a6e\AndroidManifest.xml:11:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\623c30aaef412c82641f74f25c9d6a47\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\623c30aaef412c82641f74f25c9d6a47\AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:61:9-41
+	android:largeHeap
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:62:9-33
+	android:icon
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:60:9-43
+	android:allowBackup
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:59:9-35
+	android:theme
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:63:9-40
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:58:9-66
+activity#com.cobranzas.PermissionActivity
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:64:9-78
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:64:19-66
+activity#com.cobranzas.actividades.CasteoAplicacionAtivity
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:65:9-86
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:65:19-83
+activity#com.cobranzas.actividades.FalloConexionActivity
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:66:9-84
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:66:19-81
+activity#com.cobranzas.cajas.VsErrorCaja
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:67:9-68
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:67:19-65
+activity#com.cobranzas.actividades.DetallesInicializacionActivity
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:68:9-93
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:68:19-90
+uses-library#com.pos.device
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:70:9-55
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:70:23-52
+activity#cn.desert.newpos.payui.master.MasterControl
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:82:9-96:20
+	android:supportsRtl
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:88:13-39
+	android:multiprocess
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:87:13-40
+	android:hardwareAccelerated
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:85:13-48
+	android:windowSoftInputMode
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:90:13-56
+	android:configChanges
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:84:13-74
+	android:largeHeap
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:86:13-37
+	android:theme
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:89:13-49
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:83:13-71
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:91:13-95:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:92:17-69
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:92:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:94:17-76
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:94:27-73
+activity#cn.desert.newpos.payui.master.ResultControl
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:97:9-107:20
+	android:launchMode
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:100:13-44
+	android:windowSoftInputMode
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:101:13-54
+	android:configChanges
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:99:13-92
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:98:13-71
+activity#cn.desert.newpos.payui.transrecord.HistoryTrans
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:108:9-119:20
+	android:multiprocess
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:111:13-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:113:13-67
+	android:configChanges
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:110:13-74
+	android:theme
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:112:13-49
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:109:13-75
+activity#com.cobranzas.actividades.StartAppBANCARD
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:120:9-129:20
+	android:theme
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:122:13-47
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:121:13-69
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:123:13-128:29
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:127:17-77
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:127:27-74
+activity#com.cobranzas.keys.PwMasterKey
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:130:9-67
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:130:19-64
+activity#com.cobranzas.keys.InjectMasterKey
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:131:9-71
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:131:19-68
+activity#com.cobranzas.menus.menus
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:132:9-62
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:132:19-59
+activity#com.cobranzas.inicializacion.trans_init.Init
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:133:9-81
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:133:19-78
+activity#com.cobranzas.keys.PwOperario
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:134:9-66
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:134:19-63
+activity#com.cobranzas.printer.PrintParameter
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:135:9-73
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:135:19-70
+activity#com.cobranzas.actividades.ConfiActivity
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:136:9-76
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:136:19-73
+activity#com.cobranzas.menus.TecladoSiempreActivity
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:137:9-79
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:137:19-76
+activity#com.cobranzas.actividades.MainActivity
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:138:9-75
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:138:19-72
+activity#com.cobranzas.menus.MenusActivity
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:139:9-140:54
+	android:windowSoftInputMode
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:140:13-52
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:139:19-67
+activity#com.cobranzas.actividades.InfoActivity
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:141:9-75
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:141:19-72
+activity#com.cobranzas.actividades.ConfiguracionComercioActivity
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:142:9-92
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:142:19-89
+activity#com.cobranzas.actividades.ConfiguracionTecnicoActivity
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:143:9-91
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:143:19-88
+activity#com.cobranzas.actividades.ConfiWifiActivity
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:144:9-80
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:144:19-77
+activity#com.cobranzas.actividades.ConfiWifiDirectoAcitvity
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:145:9-87
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:145:19-84
+activity#com.cobranzas.actividades.ConectarPorDominioActivity
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:146:9-89
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:146:19-86
+activity#com.cobranzas.actividades.ConfigRedActivity
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:147:9-80
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:147:19-77
+service#com.cobranzas.tools.RebootServiceClass
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:148:9-74
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:148:18-71
+receiver#com.cobranzas.startboot.StartBoot
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:150:9-159:20
+	android:enabled
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:152:13-35
+	android:permission
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:153:13-75
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:151:13-61
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.HOME
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:154:13-158:29
+	android:priority
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:154:28-50
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:155:17-79
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:155:25-76
+category#android.intent.category.HOME
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:157:17-73
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:157:27-70
+receiver#com.cobranzas.tools.AlarmReceiver
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:160:9-162:38
+	android:enabled
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:162:13-35
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:161:13-61
+service#com.cobranzas.tools.NotificationService
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:164:9-166:38
+	android:enabled
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:166:13-35
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:165:13-67
+receiver#com.cobranzas.tools.MyRebootReceiver
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:169:9-173:20
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:169:19-70
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:170:13-172:29
+meta-data#preloaded_fonts
+ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:175:9-177:57
+	android:resource
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:177:13-54
+	android:name
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml:176:13-43
+uses-sdk
+INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml
+INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml
+MERGED from [com.github.zhou256bug:android-ninekeyboard-msater:v1.5] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\d66e10ed3921fed80680ad440e314d56\AndroidManifest.xml:23:5-25:41
+MERGED from [com.github.zhou256bug:android-ninekeyboard-msater:v1.5] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\d66e10ed3921fed80680ad440e314d56\AndroidManifest.xml:23:5-25:41
+MERGED from [com.github.zhou256bug:android-baserecyle-master:v1.1] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\03e9ba247cbb3e87ff10f34f05a2c1df\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.zhou256bug:android-baserecyle-master:v1.1] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\03e9ba247cbb3e87ff10f34f05a2c1df\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.zhou256bug:android-popuplist-master:v1.1] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\701c2cfcfd7fec2fa23f9e264384b9fe\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.zhou256bug:android-popuplist-master:v1.1] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\701c2cfcfd7fec2fa23f9e264384b9fe\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.zhou256bug:android-admanager-master:v1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\5f895b9d92fff19295edde8566d6f4a3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.zhou256bug:android-admanager-master:v1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\5f895b9d92fff19295edde8566d6f4a3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:design:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\9aafbb6724aedd43b2092584d104d9cd\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\9aafbb6724aedd43b2092584d104d9cd\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\f1127168a3e790c5b325dddfdd5fccc0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\f1127168a3e790c5b325dddfdd5fccc0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\c067aa26cdf47ad8f400d4032c4bad99\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\c067aa26cdf47ad8f400d4032c4bad99\AndroidManifest.xml:20:5-44
+MERGED from [com.github.f0ris.sweetalert:library:1.6.2] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\4366d0ac5ec37f4e63794a6b5abf85dd\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.f0ris.sweetalert:library:1.6.2] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\4366d0ac5ec37f4e63794a6b5abf85dd\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\7394caa9093ce22b89f433e46936a292\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\7394caa9093ce22b89f433e46936a292\AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:19:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:19:5-43
+MERGED from [:bypay-20201229_androidV7:] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\5cc451cde3dc687f8cc1fcc84da88c63\AndroidManifest.xml:7:5-9:41
+MERGED from [:bypay-20201229_androidV7:] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\5cc451cde3dc687f8cc1fcc84da88c63\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.gcacace:signature-pad:1.2.1] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\0f1adfa7790343159fba4c405a262e57\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.gcacace:signature-pad:1.2.1] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\0f1adfa7790343159fba4c405a262e57\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\d0f01243fed53b62f7741fa9f51da400\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\d0f01243fed53b62f7741fa9f51da400\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\2aff8541d893137ff5876429b26dd2b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\2aff8541d893137ff5876429b26dd2b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\ac10f16ad27d626ed01443242e75217a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\ac10f16ad27d626ed01443242e75217a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\78a9e1c2e1c7f0ffd15c5acd3d9895be\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\78a9e1c2e1c7f0ffd15c5acd3d9895be\AndroidManifest.xml:20:5-44
+MERGED from [com.android.databinding:adapters:1.2.1] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\8de5ba0baf25e9e46b5f6b028b067c07\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:adapters:1.2.1] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\8de5ba0baf25e9e46b5f6b028b067c07\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.2.1] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\fe2265fe726a36f13ade8128ec471206\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.2.1] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\fe2265fe726a36f13ade8128ec471206\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\619482e31807b048c95733c4de386a6b\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\619482e31807b048c95733c4de386a6b\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\ccab164b40dc2bd12a233217c36d7211\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\ccab164b40dc2bd12a233217c36d7211\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\e5dcacd015b08bcb6900522bd8348851\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\e5dcacd015b08bcb6900522bd8348851\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\4d8a0b685bc44d110ca007ccea7a2516\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\4d8a0b685bc44d110ca007ccea7a2516\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\32bd6143bb43ab13c305e8ea624ddb2d\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\32bd6143bb43ab13c305e8ea624ddb2d\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\9b57ef8c6971d2c14f65483f9991f65c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\9b57ef8c6971d2c14f65483f9991f65c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\1b2630785379b064cf4b0ee470e22a6e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\1b2630785379b064cf4b0ee470e22a6e\AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\623c30aaef412c82641f74f25c9d6a47\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\623c30aaef412c82641f74f25c9d6a47\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml
+INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\9aafbb6724aedd43b2092584d104d9cd\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml
+		INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml
+		ADDED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml
+		INJECTED from C:\Users\WPOSS BGA 634K\Downloads\OneDrive_1_19-8-2021\9220_bancard_cobranzas\9220_bancard_cobranzas\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\9aafbb6724aedd43b2092584d104d9cd\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\f1127168a3e790c5b325dddfdd5fccc0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\f1127168a3e790c5b325dddfdd5fccc0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\c067aa26cdf47ad8f400d4032c4bad99\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\c067aa26cdf47ad8f400d4032c4bad99\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\7394caa9093ce22b89f433e46936a292\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\7394caa9093ce22b89f433e46936a292\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\d0f01243fed53b62f7741fa9f51da400\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:gridlayout-v7:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\d0f01243fed53b62f7741fa9f51da400\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\2aff8541d893137ff5876429b26dd2b9\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\2aff8541d893137ff5876429b26dd2b9\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\ac10f16ad27d626ed01443242e75217a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\ac10f16ad27d626ed01443242e75217a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\78a9e1c2e1c7f0ffd15c5acd3d9895be\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\78a9e1c2e1c7f0ffd15c5acd3d9895be\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\619482e31807b048c95733c4de386a6b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\619482e31807b048c95733c4de386a6b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\ccab164b40dc2bd12a233217c36d7211\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\ccab164b40dc2bd12a233217c36d7211\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\e5dcacd015b08bcb6900522bd8348851\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\e5dcacd015b08bcb6900522bd8348851\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\4d8a0b685bc44d110ca007ccea7a2516\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\4d8a0b685bc44d110ca007ccea7a2516\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\32bd6143bb43ab13c305e8ea624ddb2d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\32bd6143bb43ab13c305e8ea624ddb2d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\9b57ef8c6971d2c14f65483f9991f65c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\9b57ef8c6971d2c14f65483f9991f65c\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\9aafbb6724aedd43b2092584d104d9cd\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\9aafbb6724aedd43b2092584d104d9cd\AndroidManifest.xml:27:13-51
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:46:9-52:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:49:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:48:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:50:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:52:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\dd860b07f971e856ed26985a9d26cd1b\AndroidManifest.xml:47:13-74
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\623c30aaef412c82641f74f25c9d6a47\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\623c30aaef412c82641f74f25c9d6a47\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\WPOSS BGA 634K\.gradle\caches\transforms-2\files-2.1\623c30aaef412c82641f74f25c9d6a47\AndroidManifest.xml:26:13-58

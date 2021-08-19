@@ -1,0 +1,2 @@
+ID_HOST|NOMBRE_HOST|TIPO_COMUNICACION|REINTENTOS|TIEMPO_ESPERA_CONEXION|TIEMPO_ESPERA_RESPUESTA|NII_TRANSACCIONES|NII_CIERRE|NII_ECHO_TEST|IP_TRAN1|IP_TRAN2|LLAVE_1|LLAVE_2|LLAVE_DOBLE|IP_TRAN3|IP_TRAN4
+289                                               |WPOSS|wifi                                              |1                                                 |10                                                |45|001|001|001|IP1|IP2||                                                  |0                                                 |IP3|IP4

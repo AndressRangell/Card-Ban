@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.cobranzas.actividades.ConectarPorDominioActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/AppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar_id"
+            layout="@layout/toolbar_bancard"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        android:layout_below="@+id/AppBar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/subheader"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relativeTeclado"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/colorbuttonnumber" />
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text=" "
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/colorbuttonnumber" />
+
+        <TextView
+            android:id="@+id/tvMensaje01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="start"
+            android:text="Ingresa la IP o URL del host"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etIp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/border_number"
+                android:gravity="center"
+                android:hint="host.bancard.com"
+                android:inputType="textUri"
+                android:maxLines="1"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="5dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/darker_gray"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSubMensaje01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Mensaje secundario"
+                android:textColor="@color/red"
+                android:visibility="gone"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvMensaje02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="start"
+            android:text="Ingresa el puerto de conexión"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etPort"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/border_number"
+                android:gravity="center"
+                android:hint="7020"
+                android:inputType="number"
+                android:maxLines="1"
+                android:maxLength="5"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="5dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/darker_gray"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSubMensaje02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Mensaje secundario"
+                android:textColor="@color/red"
+                android:visibility="gone"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvMensaje03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="start"
+            android:text="Usar TLS"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/aSwitch"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:thumb="@drawable/fondo_switch"
+                android:switchTextAppearance="@style/SwitchTextAppearance"
+                android:showText="true"
+                android:checked="true"
+                android:textOn="Si"
+                android:textOff="No"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="36dp">
+
+
+
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/bordebuttonip"
+                android:textSize="20sp"
+                android:visibility="visible"
+                android:textColor="@color/white"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:text="Guardar" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./extlib/9220sdk.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/extlib/9220sdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.zhou256bug:android-baserecyle-master:v1.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/03e9ba247cbb3e87ff10f34f05a2c1df/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/03e9ba247cbb3e87ff10f34f05a2c1df/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/03e9ba247cbb3e87ff10f34f05a2c1df/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/03e9ba247cbb3e87ff10f34f05a2c1df/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

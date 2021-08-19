@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./libs/libpboc.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/libpboc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

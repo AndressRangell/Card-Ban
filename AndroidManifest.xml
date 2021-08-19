@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.wposs.cobranzas"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" /> <!-- Permisos para alarma -->
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Permisos para alarma -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" /> <!-- TODO replace above two with next line after Android 4.launcher_simple_en -->
+    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.screen.landscape" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" /> <!-- This excludes Google TV, which is unfortunately included by virtue of not requiring a camera -->
+    <uses-feature android:name="android.hardware.touchscreen" />
+
+    <application
+        android:name="cn.desert.newpos.payui.base.PayApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.cobranzas.PermissionActivity"></activity>
+        <activity android:name="com.cobranzas.actividades.CasteoAplicacionAtivity" />
+        <activity android:name="com.cobranzas.actividades.FalloConexionActivity" />
+        <activity android:name="com.cobranzas.cajas.VsErrorCaja" />
+        <activity android:name="com.cobranzas.actividades.DetallesInicializacionActivity" />
+
+        <uses-library android:name="com.pos.device" /> <!-- <activity -->
+        <!-- android:name="cn.desert.newpos.payui.splash.Welcome" -->
+        <!-- android:theme="@style/AppTheme.YOUZI" -->
+        <!-- android:configChanges="keyboardHidden|orientation|screenSize" -->
+        <!-- android:windowSoftInputMode="stateHidden|adjustResize" -->
+        <!-- android:multiprocess="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER"/> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name="cn.desert.newpos.payui.master.MasterControl"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="false"
+            android:largeHeap="true"
+            android:multiprocess="true"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme.WUZI"
+            android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.desert.newpos.payui.master.ResultControl"
+            android:configChanges="mcc|mnc|orientation|screenSize|keyboard|layoutDirection"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.desert.newpos.payui.transrecord.HistoryTrans"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:multiprocess="true"
+            android:theme="@style/AppTheme.WUZI"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cobranzas.actividades.StartAppBANCARD"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cobranzas.keys.PwMasterKey" />
+        <activity android:name="com.cobranzas.keys.InjectMasterKey" />
+        <activity android:name="com.cobranzas.menus.menus" />
+        <activity android:name="com.cobranzas.inicializacion.trans_init.Init" />
+        <activity android:name="com.cobranzas.keys.PwOperario" />
+        <activity android:name="com.cobranzas.printer.PrintParameter" />
+        <activity android:name="com.cobranzas.actividades.ConfiActivity" />
+        <activity android:name="com.cobranzas.menus.TecladoSiempreActivity" />
+        <activity android:name="com.cobranzas.actividades.MainActivity" />
+        <activity android:name="com.cobranzas.menus.MenusActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.cobranzas.actividades.InfoActivity" />
+        <activity android:name="com.cobranzas.actividades.ConfiguracionComercioActivity" />
+        <activity android:name="com.cobranzas.actividades.ConfiguracionTecnicoActivity" />
+        <activity android:name="com.cobranzas.actividades.ConfiWifiActivity" />
+        <activity android:name="com.cobranzas.actividades.ConfiWifiDirectoAcitvity" />
+        <activity android:name="com.cobranzas.actividades.ConectarPorDominioActivity" />
+        <activity android:name="com.cobranzas.actividades.ConfigRedActivity" /> <!-- ============================START BOOT================================ -->
+        <service android:name="com.cobranzas.tools.RebootServiceClass" />
+
+        <receiver
+            android:name="com.cobranzas.startboot.StartBoot"
+            android:enabled="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.cobranzas.tools.AlarmReceiver"
+            android:enabled="true" />
+
+        <service
+            android:name="com.cobranzas.tools.NotificationService"
+            android:enabled="true" /> <!-- MAKE ALARMS RESTART ON REBOOT -->
+        <service android:name="com.cobranzas.tools.RebootServiceClass" />
+
+        <receiver android:name="com.cobranzas.tools.MyRebootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

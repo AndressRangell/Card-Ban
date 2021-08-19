@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.zhou256bug:android-admanager-master:v1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f895b9d92fff19295edde8566d6f4a3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f895b9d92fff19295edde8566d6f4a3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f895b9d92fff19295edde8566d6f4a3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f895b9d92fff19295edde8566d6f4a3/jars/libs/xxdroid.support.v4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

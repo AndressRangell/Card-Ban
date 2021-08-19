@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_id"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/toolbar_bancard"
+        />
+
+    <include
+        android:layout_below="@+id/toolbar_id"
+        android:id="@+id/includeSubHeader"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/subheader"/>
+
+    <ProgressBar
+        android:id="@+id/handling_loading"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:indeterminateDrawable="@drawable/item_handling"
+        android:layout_centerInParent="true"
+        android:indeterminateDuration="@android:integer/config_longAnimTime"
+        android:layout_weight="1"
+        android:indeterminate="true" />
+
+
+    <TextView
+        android:id="@+id/handing_msginfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto de prueba"
+        android:gravity="center"
+        android:layout_below="@+id/handling_loading"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvDataInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@color/colorAzul174B"
+        android:visibility="invisible"
+        />
+</RelativeLayout>

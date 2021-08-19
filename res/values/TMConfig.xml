@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="ipConfigWifi" tools:ignore="MissingTranslation">34.192.135.190</string>
+    <string name="ipConfig3G" tools:ignore="MissingTranslation">34.192.135.190</string>
+    <!---
+    pos.infonet.com.py => Solo Aplica para Ambiente de Produccion por Wifi
+    -->
+    <!--
+    #75.2.107.231 -> Produccion  (V) Balanceador global 1
+    #18.218.105.46 -> QA Bancard (Q)
+    #34.192.135.190 -> WPOSS (W)
+
+    -->
+    <string name="portConfig" tools:ignore="MissingTranslation">7025</string>
+    <bool name="tls" tools:ignore="MissingTranslation">true</bool>
+    <string name="timerConfig" tools:ignore="MissingTranslation">30000</string>
+    <string name="timerDataConfig" tools:ignore="MissingTranslation">60000</string>
+    <string name="niiConfig" tools:ignore="MissingTranslation">001</string>
+
+
+</resources>

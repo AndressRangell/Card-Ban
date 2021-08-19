@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.zhou256bug:android-ninekeyboard-msater:v1.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d66e10ed3921fed80680ad440e314d56/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d66e10ed3921fed80680ad440e314d56/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d66e10ed3921fed80680ad440e314d56/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

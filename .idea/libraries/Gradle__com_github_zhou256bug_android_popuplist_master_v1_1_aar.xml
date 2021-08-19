@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.zhou256bug:android-popuplist-master:v1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/701c2cfcfd7fec2fa23f9e264384b9fe/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/701c2cfcfd7fec2fa23f9e264384b9fe/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/701c2cfcfd7fec2fa23f9e264384b9fe/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/701c2cfcfd7fec2fa23f9e264384b9fe/jars/libs/constraint-layout-solver-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
